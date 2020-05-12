@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "tweet-removal",
+  "version": "1.0.0",
+  "description": "Use CloudFlare worker to help you clean up your tweets automatically.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "Yingyu Cheng <github@winguse.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}

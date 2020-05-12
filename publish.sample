@@ -1,0 +1,14 @@
+#!/bin/sh
+
+wrangler publish
+
+echo "YOUR_ACCOUNT" | wrangler secret put TWITTER_USER
+echo "tag" | wrangler secret put TWEET_HASH_TAG
+echo "86400000" | wrangler secret put TWEET_TTL
+echo "YOUR_TWITTER_CONSUMER_KEY" | wrangler secret put TWITTER_CONSUMER_KEY
+echo "YOUR_TWITTER_CONSUMER_SECRET" | wrangler secret put TWITTER_CONSUMER_SECRET
+echo "YOUR_TWITTER_ACCESS_TOKEN" | wrangler secret put TWITTER_ACCESS_TOKEN
+echo "YOUR_TWITTER_ACCESS_TOKEN_SECRET" | wrangler secret put TWITTER_ACCESS_TOKEN_SECRET
+echo "GITHUB_TOKEN" | wrangler secret put GITHUB_TOKEN
+echo "GITHUB_OWNER" | wrangler secret put GITHUB_OWNER
+echo "GITHUB_REPO" | wrangler secret put GITHUB_REPO

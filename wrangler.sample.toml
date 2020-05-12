@@ -1,0 +1,6 @@
+name = "tweet-removal"
+type = "webpack"
+account_id = "YOUR_ACCOUNTT_ID"
+workers_dev = true
+route = ""
+zone_id = ""
